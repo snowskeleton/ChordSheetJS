@@ -271,6 +271,7 @@ export class ChordDiagramRenderer {
       markers: finalMarkers,
       barres,
       baseFret: chordDefinition.baseFret,
+      stringCount: chordDefinition.frets.length,
     }, renderingConfig);
   }
 
